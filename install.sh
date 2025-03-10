@@ -3,7 +3,7 @@
 INSTALL_DIR="$HOME/.urlshortener"
 mkdir -p "$INSTALL_DIR"
 
-cat << 'EOF' > "$INSTALL_DIR/urlshortener.sh"
+cat > "$INSTALL_DIR/urlshortener.sh" << 'EOF'
 #!/bin/bash
 
 echo "Enter the URL to shorten:"
